@@ -46,13 +46,13 @@ class SnakeGame:
         self.x_change_list = [1]
         self.y_change_list = [0]
 
-        self.snake_speed = 0
-        self.growth_rate = 1
+        self.snake_speed = 0.1
+        self.growth_rate = 2
 
         self.food_xpos = 0
         self.food_ypos = 0
 
-        self.start_size = 4
+        self.start_size = 3
         self.snake_length = self.start_size
         self.snake_body = []
 
